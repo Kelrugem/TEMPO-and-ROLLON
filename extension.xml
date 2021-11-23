@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root version="3.0" >
+
+	<properties>
+		<name>Feature: TEMPO and ROLLON effects</name>
+		<version>1</version>
+		<loadorder>99</loadorder>
+		<description>
+			<text>Adds TEMPO and ROLLON effect; for ongoing temporary hitpoints and rolling on a table at the beginning of the turn, respectively.</text>
+			<website></website>
+			<author>Kelrugem</author>
+		</description>
+		<ruleset>
+      <name>5E</name>
+		</ruleset>
+	</properties>
+
+    <announcement text="Adds TEMPO and ROLLON effect; for ongoing temporary hitpoints and rolling on a table at the beginning of the turn, respectively. Thanks to Scriedraven and Geokhan to make this extension compatible with Kent's ongoin save extension." font="emotefont" />
+	<base>		
+    <script name="EffectManager2" file="scripts/manager_effect_5E.lua" />
+    </base>
+    
+</root>
