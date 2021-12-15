@@ -38,7 +38,7 @@ function onEffectActorStartTurn(nodeActor, nodeEffect)
 			else
 				applyOngoingDamageAdjustment(nodeActor, nodeEffect, rEffectComp);
 			end
-			
+		-- KEL	
 		-- Ongoing Save, copright Kent (if any), suggested by ScriedRaven (and adjusted a bit)
 		elseif StringManager.contains(Extension.getExtensions(), "5E - Ongoing Save Effects") and rEffectComp.type == "SAVEO" then
 			local nActive = DB.getValue(nodeEffect, "isactive", 0);
@@ -47,7 +47,7 @@ function onEffectActorStartTurn(nodeActor, nodeEffect)
 			else
 				EffectManagerOSE.applyOngoingSaveAdjustment(nodeActor, nodeEffect, rEffectComp);
 			end
-
+		-- END
 		-- NPC power recharge
 		elseif rEffectComp.type == "RCHG" then
 			local nActive = DB.getValue(nodeEffect, "isactive", 0);
