@@ -16,8 +16,9 @@
 		</ruleset>
 	</properties>
 
-    <announcement text="Adds TEMPO and ROLLON effect; for ongoing temporary hitpoints and rolling on a table at the beginning of the turn, respectively. Thanks to Scriedraven and Geokhan to make this extension compatible with Kent's ongoin save extension." font="emotefont" />
+    <announcement text="Version dated at 10 January 2022. Adds TEMPO and ROLLON effect; for ongoing temporary hitpoints and rolling on a table at the beginning of the turn, respectively. Thanks to Scriedraven and Geokhan to make this extension compatible with Kent's ongoing save extension." icon="DeekinMightyBard" font="emotefont" />
 	<base>		
+	<icon name="DeekinMightyBard" file="DeekinMightyBard.jpg" />
     <script name="EffectManager2" file="scripts/manager_effect_5E.lua" />
     </base>
     
